@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url(kép.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px  15px 15px;
+}
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.714);
+    border-radius: 20px;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.3s ease-out;
+}
+
+main {
+    padding: 25px 25px 25px;
+    text-align: center;
+    border-radius: 30px;
+    background: rgba(24, 24, 24, 0.330);
+    width: 100%;
+    max-width: 300px;
+    margin: 0px auto;
+}
+
+.location .city {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .date {
+    color: #fff;
+    font-size: 16px;
+}
+
+.current .temp {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 5px rgba(0, 0, 0, 0.5);
+}
+.current .weather {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode {
+    background-image: url(light2.jpeg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.btn {
+    background:url(switch2.png);
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    text-align: left;
+    
+}
